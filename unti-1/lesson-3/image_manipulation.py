@@ -7,4 +7,3 @@ if len(sys.argv) !=3: # if length of system argument is not equal to 3
 img = Image.open(sys.argv[1]) # open image through user input 
 rotated_img=img.rotate(int(sys.argv[2])) # create a new variable to assign the rotate function output 
 rotated_img.save("rotated-" + sys.argv[1]) # combining strings to become rotated-image-1.jpg
-
